@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+  <script>
+
+    const text1 = "eu vou para a escola";
+    const text2 = "o dia esta lindo hoje";
+
+    let quantidadeVogais1 = 0
+    let quantidadeVogais2 = 0
+    
+    for (let i = 0; i < text1.length; i++) {        
+        if (text1[i] == 'a' || text1[i] == 'e' || text1[i] == 'i' || text1[i] == 'o' || text1[i] == 'u'){
+            quantidadeVogais1++
+        }
+    }
+
+    for (let i = 0; i < text2.length; i++){
+        if (text2[i] == 'a' || text2[i] == 'e' || text2[i] == 'i' || text2[i] == 'o' || text2[i] == 'u'){
+            quantidadeVogais2++
+        }
+    }
+
+    console.log(quantidadeVogais1)
+    console.log(quantidadeVogais2)
+
+  </script>
+</html>
